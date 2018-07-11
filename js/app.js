@@ -203,6 +203,7 @@ function match() {
 
  function resetMoves() {
    moves = 0;
+   matched = 0;
    movesScore.innerHTML = moves;
    counter.innerHTML = moves;
  }
